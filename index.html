@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+    <title>Jibril Musse Portfolio: Home</title>
+	<meta name="description" content="This is the home page of Jibril Musse, a student Web Development at Saint Paul College.">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link href="https://fonts.googleapis.com/css2?family=Alkalami" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+	
+</head>
+<body>
+	<header>
+		<img src="images/logo.png" height="100px" width="275" alt="Jibril Musse's logo" class="img-fluid logo">	
+	</header>
+	<nav>
+	    <ul>
+	    	<li><a href="index.html">Home</a></li>
+	    	<li><a href="resume.html">Resume</a></li>
+			<li><a href="portfolio.html">Portfolio</a></li>
+	    	<li><a href="javascript.html">JavaScript</a></li>
+	    </ul>
+	</nav>
+
+
+	<main>
+	<div class="container-fluid">
+	<div class="row">
+	<div class="col-sm-6">
+		
+			<h2>About Me</h2>
+			<p>My name is Jibril Musse and I am a student currently attending Saint Paul College. This is a website I made for a class to showcase my skills and profeiency in web development. </p>
+
+			<p>These are classes I have taken at saint paul college that have helped me develop those skills: </p>
+			<ul>
+				<li>Web Fundamentals is a class where I learned HTML and CSS</li>
+				<li>Database management fundamental is a class where I learned SQL</li>
+				<li>Compute science informations systems is a class where I learned C+ and Some Machine language</li>
+				<li>I am also proficient in Java and Python as well</li>
+			</ul>
+
+			<p>I am planning to graduate in spring 2025 with a MIS degree and ready to start working with my skills!</p>
+			<p>Some of My hobbies include playing sports including basketball and soccer as well as playing video games. I also enjoy coding for fun. </p>
+
+		</div>
+		<div class="col-sm-6">
+			<img src="images/school.jpg" width="" height="" alt="school" class="img-fluid">
+		
+		</div>
+		</div>	
+		<hr>
+		
+		<div class="row big-3">
+		<div class="col-sm-4">
+		
+		<i class="fa fa-bookmark-o" aria-hidden="true"></i>
+		<h2>Resume</h2>
+		<p>Check out my resume! </p>
+		<a href="resume.html"><button>Learn More</button></a>
+		</div>
+		<div class="col-sm-4">
+		<i class="fa fa-list" aria-hidden="true"></i>
+		<h2>Portfolio</h2>
+		<p>Websites I Made</p>
+		<a href="portfolio.html"><button>Learn More</button></a>
+		
+		</div>
+		<div class="col-sm-4">
+		
+		<i class="fa fa-play" aria-hidden="true"></i>
+		<h2>JavaScript Game</h2>
+		<p>I made my custom version of the W3 Schools JavaScript game.</p>
+		<a href="javascript.html"><button>Learn More</button></a>
+		</div>
+		</div>	
+		
+		<hr>
+		<h2>My Favorite Mountain pictures</h2>
+		<p>I love landscapes and geography they just make me appriciate life more.</p>
+		
+		<div class="gallery row">
+			<div class="col-sm-9">
+
+
+			    <div class="preview">
+			        <img id="preview" src="images/island1.jpg" alt=""/>
+			    </div>
+			</div>
+			<div class="col-sm-3">
+
+		    <div class="gallery-thumbnails">
+		        <img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/island2.jpg" alt="" />
+		        <img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/island3.jpg" alt=""  />
+		        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/island4.jpg" alt="" />
+		        <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/island5.jpg" alt="" />
+		        
+		    </div>
+		</div>
+		</div>
+	 	
+		
+
+	</main>
+	
+	
+	<footer>
+    	<div class="row footer1000">
+
+        	<div class="col-sm-6" >
+            	<h4 >This is my final project draft </h4>
+			
+				<p><em>The pictures I used were from <a href="https://pixabay.com/users/bellinon-2931390/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4271569"></a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4271569">Pixabay.</a> </em></p> 
+
+        	</div>
+
+
+        	<div class="col-sm-6" >
+            	<div class="footer-icons">
+					<h2>Connect with me on!</h2>
+		
+            			<a href="https://twitter.com/JibrilAwmusse/media" target="_blank">
+               			<i class="fa fa-twitter" aria-hidden="true"></i>
+               			Twitter</h4></a>
+           
+            			<a href="https://www.instagram.com/jibril.awmusse/" target="_blank">
+               			<i class="fa fa-telegram" aria-hidden="true"></i>
+                   		Instagram</h4></a>
+			
+            			<a href="mailto:jibril.awmusse@gmail.com">
+               			<i class="fa fa-envelope-open" aria-hidden="true"></i>
+                    	Email</h4></a>
+			
+				</div>
+        	</div>			
+			
+</div>
+
+			
+    	</div>
+    	<div class="footer-bottom">
+        	<small>Planning on mastering HTML and Css coding. A nice tool would be: <a href="https://webdevstudents.com" target="_blank"><b>WebdevWebsite.com.</b></a> 
+			<br>&copy;Copyright Creative Website</a>. </small>
+    	</div>
+	</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+</html>
+
