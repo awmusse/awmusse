@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="utf-8">
+   <title>Animal Photography Lab Example</title>
+   <meta name="viewport" content="width=device-width, scale=1">
+   <meta name="description" content="This is a website for the Animal Photography lab">
+   <link href='https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" >
+   <link rel="stylesheet" href="style.css">
+   </head>
+   <body>
+      <header>
+          <h1>Animal Photography</h1>
+       </header>
+         <nav>
+              <ul>
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="#">Photos</a></li>
+                 <li><a href="#">About</a></li>
+                 <li><a href="#">Contact</a></li>
+
+              </ul>
+        </nav>
+               
+      <main>
+         <div class="container-fluid">
+            <div class="row">
+               <div class="col-sm-12">
+                  <img src="images/otter.jpg" height="400" width="1200" class="img-fluid hero-img" alt="otter portrait">
+				</div>
+				<div class="col-sm-2">
+				
+               		<i class="fa fa-camera" aria-hidden="true"></i>
+				</div>
+				<div class="col-sm-8">
+                  <blockquote><p>The website features photographs of animals from Pixabay.com. The key to animal photography is patience. It can take a long time to get the right lighting and the best view of the animal. When photographing animals, you do not have a lot of control...you need to wait for them.  </p>
+				  
+
+             
+                  </blockquote>
+
+               </div>
+            </div>
+           <div class="row">
+			   <div class="col-sm-12">
+           		<div class="gallery">
+
+					<div class="preview">
+						<img id="preview" src="images/fox.jpg" style="display:block;margin:0 auto;" alt=""  height="600" width="800"/>
+					</div>
+
+					<div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+						<img onclick="document.getElementById('preview').src=document.getElementById('img1').src" id="img1" src="images/fallow deer.jpg" alt="" />
+						<img onclick="document.getElementById('preview').src= document.getElementById('img2').src;" id="img2" src="images/bison.jpg" alt=""  />
+						
+						<img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/frog.jpg" alt="" />
+						<img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/headgehog.jpg" alt=""  />
+						<img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="images/lizard.jpg" alt="" />
+						<img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="images/rabbit.jpg" alt="" />
+						<img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="images/sheep.jpg" alt="" />
+						<img onclick="document.getElementById('preview').src = document.getElementById('img9').src;" id="img9" src="images/spider.jpg" alt="" />
+						<img onclick="document.getElementById('preview').src = document.getElementById('img10').src;" id="img10" src="images/turtle.jpg" alt="" />
+					</div>
+				</div>
+			   </div>
+			 </div>
+
+            
+      </main>
+      <footer>
+          <div class="row footer1000">
+			  <div class="col-sm-12" >
+				  <h4>Connect with Animal Photography!</h4>
+                	<a href="https:/facebook.com">
+                		<p><i class="fa fa-facebook-official" aria-hidden="true"></i>
+                		Follow us on Facebook</p>
+                   </a>
+					<a href="https://Instagram.com">
+                		<p><i class="fa fa-instagram" aria-hidden="true"></i>
+                		Follow us on Instagram</p>
+                   </a>
+					<a href="https://youtube.com">
+                		<p><i class="fa fa-youtube-play" aria-hidden="true"></i>Check us out on youtube</p>
+                   </a>
+                </div>
+                
+                <div class="col-sm-12" >
+                	
+                </div>
+            </div>
+         <div class="footer-bottom">
+         <small>&copy; Jibril Musse. All rights reserved.</small>
+		  </div>
+      </footer>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+
+   </body>
+</html>
